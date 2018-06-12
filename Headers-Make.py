@@ -1,7 +1,10 @@
 import re
 import os
 import json
+#-----------------------------------------------
+#headers.txt文件保存地址，可根据自身需求改动位置
 desktop=os.path.join(os.path.expanduser("~"), 'Desktop')+'/headers.txt'
+#-----------------------------------------------
 F=open(desktop,'r')
 heders={}
 for each in F:
